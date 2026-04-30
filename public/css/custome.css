@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #004AAC;
+}
+
+/* TEXT */
+.text-primary,
+.subheading,
+.heading-section .subheading {
+    color: var(--primary-color) !important;
+}
+
+/* BUTTON */
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* LINK */
+a {
+    color: var(--primary-color);
+}
+
+/* NAVBAR */
+.ftco-navbar-light {
+    background: #ffffff !important;
+}
+
+/* HERO OVERLAY */
+.hero-wrap .overlay {
+    background: rgba(0, 74, 172, 0.4);
+}
