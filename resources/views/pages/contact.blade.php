@@ -2,58 +2,52 @@
 
 @section('content')
 
-<section class="ftco-section">
+<section class="hero-wrap js-fullheight" style="background-image: url('{{ asset('images/like view.jpg') }}'); background-size: cover; background-position: center;">
+     <div class="overlay"></div>
 	<div class="container">
-
-		<!-- TITLE -->
+<br><br><br><br><br>
 		<div class="row justify-content-center pb-4">
-			<div class="col-md-12 heading-section text-center ftco-animate">
+			<div class="col-md-12 heading-section text-center">
 				<span class="subheading">Contact</span>
-				<h2 class="mb-4">Contact Us</h2>
+				<h2 class="mb-4">Get In Touch</h2>
 			</div>
 		</div>
 
 		<div class="row">
 
-			<!-- CONTACT INFO -->
+			<!-- INFO -->
 			<div class="col-md-4">
 				<div class="info p-4 bg-light">
 
-					<p><strong>Address:</strong><br>
-					Ranukumbolo, Lumajang, Jawa Timur</p>
+					<p><strong>Location:</strong><br>Ranukumbolo, Lumajang</p>
+					<p><strong>Phone:</strong><br>+62 852 3156 0171</p>
+					<p><strong>Email:</strong><br>lsc.holiday@gmail.com</p>
 
-					<p><strong>Phone:</strong><br>
-					+62 812 3456 7890</p>
-
-					<p><strong>Email:</strong><br>
-					lsc.holiday@gmail.com</p>
-
-					<p><strong>Instagram:</strong><br>
-					<a href="https://www.instagram.com/lscholiday" target="_blank">
-						@lscholiday
-					</a></p>
+					<a href="https://wa.me/6285231560171" class="btn btn-primary mt-3">
+						Chat WhatsApp
+					</a>
 
 				</div>
 			</div>
 
 			<!-- FORM -->
 			<div class="col-md-8">
-				<form class="bg-light p-4">
+				<form class="bg-light p-4" onsubmit="sendToWhatsApp(event)">
 
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Your Name">
+						<input type="text" id="name" class="form-control" placeholder="Your Name" required>
 					</div>
 
 					<div class="form-group">
-						<input type="email" class="form-control" placeholder="Your Email">
+						<input type="email" id="email" class="form-control" placeholder="Your Email" required>
 					</div>
 
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Subject">
+						<input type="text" id="subject" class="form-control" placeholder="Subject">
 					</div>
 
 					<div class="form-group">
-						<textarea class="form-control" rows="5" placeholder="Message"></textarea>
+						<textarea id="message" class="form-control" rows="5" placeholder="Message"></textarea>
 					</div>
 
 					<div class="form-group">
@@ -68,5 +62,28 @@
 		</div>
 	</div>
 </section>
+
+<script id="wa_script">
+function sendToWhatsApp(event) {
+	event.preventDefault();
+
+	let name = document.getElementById('name').value;
+	let email = document.getElementById('email').value;
+	let subject = document.getElementById('subject').value;
+	let message = document.getElementById('message').value;
+
+	let phone = "6285231560171";
+
+	let text = `Halo LSC Holiday,%0A%0A
+Nama: ${name}%0A
+Email: ${email}%0A
+Subject: ${subject}%0A
+Pesan: ${message}`;
+
+	let url = `https://wa.me/${phone}?text=${text}`;
+
+	window.open(url, '_blank');
+}
+</script>
 
 @endsection

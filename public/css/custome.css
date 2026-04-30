@@ -1,6 +1,9 @@
 :root {
     --primary-color: #004AAC;
 }
+body {
+    padding-top:90px ;
+}
 
 /* TEXT */
 .text-primary,
@@ -23,9 +26,4 @@ a {
 /* NAVBAR */
 .ftco-navbar-light {
     background: #ffffff !important;
-}
-
-/* HERO OVERLAY */
-.hero-wrap .overlay {
-    background: rgba(0, 74, 172, 0.4);
 }
