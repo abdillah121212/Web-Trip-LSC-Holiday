@@ -16,7 +16,7 @@
              <div class="col-md-4 ftco-animate">
                  <div class="project-wrap">
                      <a href="#" class="img"
-                         style="background-image: url('{{ asset('images/bg_hero_2.jpg') }}');">
+                         style="background-image: url('{{ asset('images/photo 5.png') }}');">
                      </a>
                      <div class="text p-4 text-center">
                          <h3>Sunrise View</h3>
@@ -29,7 +29,7 @@
              <div class="col-md-4 ftco-animate">
                  <div class="project-wrap">
                      <a href="#" class="img"
-                         style="background-image: url('{{ asset('images/camping area.jpg') }}');">
+                         style="background-image: url('{{ asset('images/photo 9.png') }}');">
                      </a>
                      <div class="text p-4 text-center">
                          <h3>Camping Area</h3>
@@ -42,7 +42,7 @@
              <div class="col-md-4 ftco-animate">
                  <div class="project-wrap">
                      <a href="#" class="img"
-                         style="background-image: url('{{ asset('images/like view.jpg') }}');">
+                         style="background-image: url('{{ asset('images/photo 7.png') }}');">
                      </a>
                      <div class="text p-4 text-center">
                          <h3>Lake View</h3>
@@ -55,7 +55,7 @@
              <div class="col-md-4 ftco-animate">
                  <div class="project-wrap">
                      <a href="#" class="img"
-                         style="background-image: url('{{ asset('images/golden hour.jpg') }}');">
+                         style="background-image: url('{{ asset('images/photo 12.png') }}');">
                      </a>
                      <div class="text p-4 text-center">
                          <h3>Golden Hour</h3>
@@ -68,7 +68,7 @@
              <div class="col-md-4 ftco-animate">
                  <div class="project-wrap">
                      <a href="#" class="img"
-                         style="background-image: url('{{ asset('images/mountain view.jpg') }}');">
+                         style="background-image: url('{{ asset('images/photo 3.png') }}');">
                      </a>
                      <div class="text p-4 text-center">
                          <h3>Mountain View</h3>
@@ -81,7 +81,7 @@
              <div class="col-md-4 ftco-animate">
                  <div class="project-wrap">
                      <a href="#" class="img"
-                         style="background-image: url('{{ asset('images/night view.jpg') }}');">
+                         style="background-image: url('{{ asset('images/photo 4.png') }}');">
                      </a>
                      <div class="text p-4 text-center">
                          <h3>Night Camp</h3>

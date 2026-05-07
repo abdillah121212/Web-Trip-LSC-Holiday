@@ -22,7 +22,7 @@
 					<!-- CARD 1 -->
 					<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
 						<div class="services services-1 color-1 d-block img" 
-							style="background-image: url('{{ asset('images/services-1.jpg') }}');">
+							style="background-image: url('{{ asset('images/photo 1.png') }}');">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-paragliding"></span>
 							</div>
@@ -36,7 +36,7 @@
 					<!-- CARD 2 -->
 					<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
 						<div class="services services-1 color-2 d-block img" 
-							style="background-image: url('{{ asset('images/services-2.jpg') }}');">
+							style="background-image: url('{{ asset('images/photo 2.png') }}');">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-route"></span>
 							</div>
@@ -50,7 +50,7 @@
 					<!-- CARD 3 -->
 					<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
 						<div class="services services-1 color-3 d-block img" 
-							style="background-image: url('{{ asset('images/services-3.jpg') }}');">
+							style="background-image: url('{{ asset('images/photo 6.png') }}');">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-tour-guide"></span>
 							</div>
@@ -63,8 +63,8 @@
 
 					<!-- CARD 4 -->
 					<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-						<div class="services services-1 color-4 d-block img" 
-							style="background-image: url('{{ asset('images/services-4.jpg') }}');">
+						<div class="services services-1 color-3 d-block img" 
+							style="background-image: url('{{ asset('images/photo 4.png') }}');">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-map"></span>
 							</div>

@@ -8,7 +8,7 @@
 					<!-- IMAGE -->
 					<div class="col-md-6 d-flex align-items-stretch">
 						<div class="img d-flex w-100 align-items-center justify-content-center"
-							 style="background-image:url('{{ asset('images/about-2.jpg') }}');">
+							 style="background-image:url('{{ asset('images/photo 13.png') }}');">
 						</div>
 					</div>
 
