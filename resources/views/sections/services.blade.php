@@ -5,8 +5,8 @@
 			<!-- TEXT CONTENT -->
 			<div class="col-md-6 order-md-last heading-section pl-md-5 ftco-animate d-flex align-items-center">
 				<div class="w-100">
-					<span class="subheading">Welcome to LSC Holiday</span>
-					<h2 class="mb-4">Start Your Ranukumbolo Adventure</h2>
+					<span class="subheading">Mengapa Memilih Kami<</span>
+					<h2 class="mb-4">Pengalaman Wisata Alam yang Lebih Dari Sekadar Perjalanan</h2>
 					<p>Kami menyediakan pengalaman trip terbaik ke Ranukumbolo dengan pelayanan profesional dan aman.</p>
 					<p>Mulai dari pendakian santai hingga trip eksplorasi alam, semua kami siapkan untuk pengalaman tak terlupakan.</p>
 					<p>
@@ -27,7 +27,7 @@
 								<span class="flaticon-paragliding"></span>
 							</div>
 							<div class="media-body">
-								<h3 class="heading mb-3">Adventure Activities</h3>
+								<h3 class="heading mb-3">Petualangan Terbaik</h3>
 								<p>Nikmati berbagai aktivitas seru di alam terbuka.</p>
 							</div>
 						</div>      

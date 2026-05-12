@@ -1,111 +1,65 @@
-<section class="ftco-section testimony-section bg-bottom" style="background-image: url('{{ asset('images/bg_hero_1.jpg') }}');">
-	<div class="overlay"></div>
+<section class="ftco-section testimony-section bg-light">
 
-	<div class="container">
-		
-		<!-- TITLE -->
-		<div class="row justify-content-center pb-4">
-			<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-				<span class="subheading">Testimonial</span>
-				<h2 class="mb-4">Apa Kata Klien Kami</h2>
-			</div>
-		</div>
+    <div class="container">
 
-		<div class="row ftco-animate">
-			<div class="col-md-12">
+        <div class="row justify-content-center pb-4">
+            <div class="col-md-7 text-center heading-section">
+                <span class="subheading">Testimoni</span>
+                <h2 class="mb-4">Cerita Mereka yang Sudah Berpetualang Bersama Kami</h2>
+            </div>
+        </div>
 
-				<div class="carousel-testimony owl-carousel">
+        <!-- OWL CAROUSEL -->
+        <div class="row">
+            <div class="col-md-12">
 
-					<!-- ITEM 1 -->
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="text">
+                <div class="owl-carousel testimonial-slider">
 
-								<p class="star">
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</p>
+                    <!-- item 1 -->
+                    <div class="item">
+                        <div class="testimony-wrap p-4">
+                            <h5>Ahmad</h5>
+                            <p>
+                                Trip yang luar biasa, guide ramah dan perjalanan sangat terorganisir.
+                            </p>
+                        </div>
+                    </div>
 
-								<p class="mb-4">
-									Trip ke Ranukumbolo bareng LSC Holiday luar biasa! Semua terorganisir dengan baik dan sangat menyenangkan.
-								</p>
+                    <!-- item 2 -->
+                    <div class="item">
+                        <div class="testimony-wrap p-4">
+                            <h5>Siti</h5>
+                            <p>
+                                Pengalaman camping terbaik, view Ranukumbolo benar-benar indah.
+                            </p>
+                        </div>
+                    </div>
 
-								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('{{ asset('images/person_1.jpg') }}')"></div>
-									<div class="pl-3">
-										<p class="name">Andi Saputra</p>
-										<span class="position">Traveler</span>
-									</div>
-								</div>
+                    <!-- item 3 -->
+                    <div class="item">
+                        <div class="testimony-wrap p-4">
+                            <h5>Rizky</h5>
+                            <p>
+                                Sangat recommended untuk yang suka petualangan alam.
+                            </p>
+                        </div>
+                    </div>
 
-							</div>
-						</div>
-					</div>
+                    <!-- item 4 -->
+                    <div class="item">
+                        <div class="testimony-wrap p-4">
+                            <h5>Dina</h5>
+                            <p>
+                                Tim profesional, perjalanan aman dan menyenangkan.
+                            </p>
+                        </div>
+                    </div>
 
-					<!-- ITEM 2 -->
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="text">
+                </div>
 
-								<p class="star">
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</p>
+            </div>
+        </div>
 
-								<p class="mb-4">
-									Guide-nya profesional dan ramah. Pengalaman hiking jadi lebih aman dan nyaman.
-								</p>
+    </div>
 
-								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('{{ asset('images/person_2.jpg') }}')"></div>
-									<div class="pl-3">
-										<p class="name">Rina Putri</p>
-										<span class="position">Backpacker</span>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-
-					<!-- ITEM 3 -->
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="text">
-
-								<p class="star">
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</p>
-
-								<p class="mb-4">
-									Pemandangan Ranukumbolo luar biasa indah, dan LSC Holiday membuat semuanya jadi lebih mudah.
-								</p>
-
-								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('{{ asset('images/person_3.jpg') }}')"></div>
-									<div class="pl-3">
-										<p class="name">Budi Santoso</p>
-										<span class="position">Nature Explorer</span>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-	</div>
 </section>

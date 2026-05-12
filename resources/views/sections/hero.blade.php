@@ -2,16 +2,15 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
-
             <div class="col-md-7 ftco-animate">
-                <span class="subheading">Explore Nature With Us</span>
-                <h1 class="mb-4">Experience The Beauty of Ranukumbolo Like Never Before</h1>
+                <span class="subheading">Jelajahi Alam, Ciptakan Kenangan</span>
+                <h1 class="mb-4">Wujudkan Petualangan Impianmu Bersama LSC Holiday</h1>
                 <p class="caps">
-                    Discover unforgettable adventures, breathtaking landscapes, and memorable moments together with LSC Holiday.
+                   Nikmati pengalaman open trip ke Ranukumbolo dengan perjalanan yang aman, nyaman, dan penuh cerita tak terlupakan bersama tim profesional kami.
 				</p> 
 			</div>
 
-                <a href="{{ asset('video/video1.mp4') }}"
+                <a href="{{ asset('video/video-hero.mp4') }}"
                     class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
                     <span class="fa fa-play"></span>
                 </a>

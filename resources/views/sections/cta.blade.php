@@ -8,8 +8,8 @@
 					
 					<div class="overlay"></div>
 
-					<h2>Ready for Your Ranukumbolo Adventure?</h2>
-					<p>Join LSC Holiday and experience nature like never before</p>
+					<h2>Siap Menjelajahi Ranukumbolo Bersama Kami?</h2>
+					<p>Jangan hanya melihat keindahannya dari foto. Rasakan langsung pengalaman terbaik bersama LSC Holiday.</p>
 
 					<p class="mb-0">
 

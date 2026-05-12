@@ -7,7 +7,7 @@
    MOBILE RESPONSIVE FIX - LSC HOLIDAY
 ======================================== */
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
 
     /* =====================
        NAVBAR MOBILE
@@ -60,180 +60,71 @@
     .ftco-navbar-light .navbar-nav .nav-item:last-child .nav-link {
         border-bottom: none;
     }
-
-
-    /* =====================
-       HERO MOBILE
-    ===================== */
-    .hero-wrap {
-        min-height: 100vh !important;
-        height: auto !important;
-        padding: 140px 20px 80px;
-        background-position: center center !important;
+    
+    /* testimonial  */
+    /* tombol owl selalu di atas */
+    .testimonial-slider .owl-nav {
+        position: relative;
+        display: none;
+        z-index: 99;
+        margin-top: 30px;
     }
 
-    .hero-wrap .slider-text {
-        text-align: center;
+    /* button klikable */
+    .testimonial-slider .owl-nav button {
+        pointer-events: auto !important;
+        position: relative;
+        z-index: 999;
+
+        width: 45px;
+        height: 45px;
+
+        border-radius: 50%;
+        border: none !important;
+
+        background: #004AAC !important;
+        color: #fff !important;
+
+        margin: 0 8px;
+        transition: 0.3s ease;
     }
 
-    .hero-wrap h1 {
-        font-size: 34px !important;
-        line-height: 1.3;
-        margin-bottom: 20px;
+    .testimonial-slider .owl-nav button:hover {
+        transform: scale(1.05);
     }
 
-    .hero-wrap .subheading {
-        font-size: 14px;
-        letter-spacing: 1px;
+    /* parent jangan nutup click */
+    .testimonial-slider,
+    .testimonial-slider .owl-stage-outer,
+    .testimonial-slider .owl-stage {
+        overflow: visible !important;
     }
 
-    .hero-wrap p {
-        font-size: 15px;
-    }
-
-    .icon-video {
-        margin: 30px auto 0 !important;
-    }
-
-
-    /* =====================
-       GLOBAL SECTION
-    ===================== */
-    .ftco-section {
-        padding: 70px 0 !important;
-    }
-
-    h2 {
-        font-size: 28px !important;
-    }
-
-    h3 {
-        font-size: 22px !important;
-    }
-
-    p {
-        font-size: 15px;
-        line-height: 1.7;
-    }
-
-
-    /* =====================
-       SERVICES
-    ===================== */
-    .services-section .heading-section {
-        text-align: center;
-        padding-left: 0 !important;
-        margin-bottom: 40px;
-    }
-
-    .services {
-        margin-bottom: 20px;
-        border-radius: 20px;
-    }
-
-
-    /* =====================
-       GALLERY
-    ===================== */
-    .project-wrap {
-        margin-bottom: 25px;
-    }
-
-    .project-wrap .img {
-        height: 260px;
-        border-radius: 20px;
-    }
-
-    .project-wrap .text {
-        text-align: center;
-    }
-
-
-    /* =====================
-       ABOUT
-    ===================== */
-    .ftco-about .img {
-        height: 320px;
-        margin-bottom: 30px;
-        border-radius: 20px;
-    }
-
-    .ftco-about .pl-md-5 {
-        padding-left: 15px !important;
-    }
-
-    .ftco-about .heading-section {
-        text-align: center;
-    }
-
-
-    /* =====================
-       TESTIMONIAL
-    ===================== */
+    /* card jangan nutup nav */
     .testimony-wrap {
-        padding: 25px 20px;
+        position: relative;
+        z-index: 1;
+    }
+    /* item width fix */
+    .testimonial-slider .owl-item {
+        float: left;
+         padding: 0 8px;
     }
 
-    .testimony-wrap .text {
-        text-align: center;
-    }
-
-
-    /* =====================
-       CONTACT
-    ===================== */
-    .contact-section .info {
-        margin-bottom: 30px;
-    }
-
-    .contact-section .form-control {
-        height: 50px;
-        border-radius: 12px;
-    }
-
-    .contact-section textarea.form-control {
-        height: 140px;
-    }
-
-    .contact-section .btn {
+    /* card full width */
+    .testimonial-slider .item {
         width: 100%;
     }
 
-
-    /* =====================
-       CTA
-    ===================== */
-    .ftco-intro h2 {
-        font-size: 26px !important;
-        line-height: 1.4;
-    }
-
-    .ftco-intro .btn {
-        display: block;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-
-    /* =====================
-       FOOTER
-    ===================== */
-    .ftco-footer {
-        text-align: center;
-    }
-
-    .ftco-footer-widget {
-        margin-bottom: 30px;
-    }
-
-    .ftco-footer-social {
+    /* hilangkan offset bawaan */
+    .testimonial-slider .owl-stage {
         display: flex;
-        justify-content: center;
-        gap: 12px;
     }
 
-    .ftco-footer .border-left {
-        border-left: none !important;
+    /* card konsisten */
+    .testimony-wrap {
+        height: 100%;
+         border-radius: 20px;
+        min-height: auto;
     }
-
 }

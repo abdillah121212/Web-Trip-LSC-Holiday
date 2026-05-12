@@ -17,17 +17,15 @@
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate">
 
-								<span class="subheading">About Us</span>
-								<h2 class="mb-4">Make Your Trip Memorable with LSC Holiday</h2>
+								<span class="subheading">Tentang Kami</span>
+								<h2 class="mb-4">Partner Terpercaya Untuk Menjelajahi Keindahan Alam</h2>
 
 								<p>
-									LSC Holiday adalah penyedia trip wisata alam yang fokus pada pengalaman terbaik di Ranukumbolo.
-									Kami menghadirkan perjalanan yang aman, nyaman, dan penuh kesan.
+									 LSC Holiday hadir untuk memberikan pengalaman wisata alam yang tidak hanya menyenangkan, tetapi juga penuh makna.
 								</p>
 
 								<p>
-									Dengan tim berpengalaman dan konsep trip yang terorganisir, kami siap menemani perjalanan
-									anda menikmati keindahan alam Indonesia.
+									Kami percaya bahwa setiap perjalanan adalah cerita yang layak untuk dikenang.
 								</p>
 
 								<p>

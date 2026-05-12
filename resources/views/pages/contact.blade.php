@@ -2,17 +2,17 @@
 
 @section('content')
 
-<section class="hero-wrap js-fullheight" style="background-image: url('{{ asset('images/like view.jpg') }}'); background-size: cover; background-position: center;">
+<section class="hero-wrap js-fullheight" style="background-image: url('{{ asset('images/golden hour.jpg') }}'); background-size: cover; background-position: center;">
      <div class="overlay"></div>
 	<div class="container">
 <br><br><br><br><br>
+<div class="slider-text">
 		<div class="row justify-content-center pb-4">
-			<div class="col-md-12 heading-section text-center">
-				<span class="subheading">Contact</span>
-				<h2 class="mb-4">Get In Touch</h2>
+			<div class="col-md-7 ftco-animate text-center">
+				<h1 class="mb-2">Hubungi Kami</h1>
 			</div>
 		</div>
-
+</div>
 		<div class="row">
 
 			<!-- INFO -->

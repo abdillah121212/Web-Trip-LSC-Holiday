@@ -7,11 +7,11 @@
             <div class="col-md pt-5">
                 <div class="ftco-footer-widget pt-md-5 mb-4">
                     <h2 class="ftco-heading-2">LSC Holiday</h2>
-                    <p>Explore the beauty of Ranukumbolo with unforgettable experiences and professional trip services.
-                    </p>
-                  
+                    <p>LSC Holiday menghadirkan pengalaman open trip yang aman, nyaman, dan penuh cerita berharga untuk
+                        setiap perjalanan anda.</p>
+
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-                          <!-- instagram -->
+                        <!-- instagram -->
                         <li class="ftco-animate">
                             <a href="https://www.instagram.com/lscholiday" target="_blank">
                                 <span class="fa fa-instagram"></span>
@@ -26,7 +26,7 @@
                     </ul>
                 </div>
             </div>
-            
+
             <!-- MENU -->
             <div class="col-md pt-5 border-left">
                 <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
